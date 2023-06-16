@@ -1,0 +1,23 @@
+{
+    "name": "sigerproject/uuid",
+    "description": "This is a Packagist which is useful for making unique codes unique which can be used to secure the unique code that we make so that it is not easy for hackers to guess.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sigerproject\\Uuid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yogi-maulana-dev",
+            "email": "yogimaulana100@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+  
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0"
+    }
+}
